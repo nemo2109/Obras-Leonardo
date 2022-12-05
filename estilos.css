@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centrar-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body{
+    background-color: #781FB5;
+    padding: 5%;
+}
+
+#principal{
+    background-color: #E8E3EC;
+    padding: 10%;
+}
+
+
+.photo{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    
+}
+
+.inicio{
+    font-style: oblique;
+}
+
+p{
+    text-align: center;
+    width: 90%;
+}
+
+.tittle{
+    color: #E8E3EC;
+}
+
+
+h1 {
+    font-size: x-large;
+    color: #E8E3EC;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+.principal-text2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10%;
+    
+}
+
+
+.foto{
+    width: 40%;
+    height: 40%;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.imag{
+    width: 60%;
+    height: 50%;
+    border-radius: 50%;
+    margin-bottom: 2.5%;
+}
+
+.lastdin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+hr{
+   width: 80%;
+}
+
+h3{
+    text-align: center;
+}
+
+.mona{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.lisa{
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    margin-bottom: 2.5%;
+
+}
+
+.bella{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.imgn{
+    width: 69%;
+    height: 69%;
+    border-radius: 60%;
+    margin-bottom: 15%;
+}
+
+
+.cuerpo{
+    text-align: center;
+
+}
+
+.final{
+    background-color: #170227;
+    color: #E8E3EC;
+    margin: 5%;
+    padding: 5%;
+}
+
+
+
+/*pantalla mediana*/
+@media screen and (min-width: 700px){
+    
+    .second-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cuerpo {
+        width: 69%;
+        height: 69%;
+    }
+
+    .imgn{
+        border-radius: 85%;
+        margin-bottom: 15%;
+    }
+
+    p{
+        text-align: center;
+        width: 100%;
+
+    }  
+
+    .tittle{
+        color: #E8E3EC;
+    }
+    
+}
+
+
+/*escritorio*/
+
+@media screen and (min-width: 1200px){
+   body{
+    padding: 1%;
+   }
+   
+    .photo{
+    border-radius: 60%;
+   }
+
+   .inicio1{
+    background-color: #E8E3EC;
+    
+   }
+
+   p{
+    font-size: medium;
+
+   }
+
+   .tittle{
+    color: #E8E3EC;
+    font-size: medium;
+   }
+
+   .foto{
+     width: 40%;
+     border-radius: 0%;
+     background-color: #640202;
+     margin-bottom: 0;
+     padding: 70px;
+
+   }
+
+   .principal-text2{
+    display: flex;
+    flex-direction: row;
+    
+   } 
+
+   #principal{
+    background-color:#781FB5;
+
+   }
+
+   .lisa, .imag{
+    width: 40%;
+   }
+
+   
+
+   h3, h2{
+    text-align: center;
+    font-size:xx-large;
+   }
+
+   
+
+   .obras{
+    background-color: #E8E3EC;
+    padding: 4.5%;
+   }
+
+   .lastdin,.bella,.mona{
+    border: solid;
+    flex-direction: row;
+    padding: 6%;
+   }
+
+   .second-1{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+   }
+
+   #second-half{
+    background-color: #E8E3EC;
+    margin-top: 10%;
+    width: 100%;
+   }
+
+   .caja-img{
+    display: flex;
+    flex-direction: row;
+   }
+
+   .imgn{
+    border-radius: 50%
+    
+   }
+
+   .cuerpo{
+    width: 100%;
+    height: 100%;
+
+   }
+
+   .descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+  
+    
+}
+
+
+
+
+
